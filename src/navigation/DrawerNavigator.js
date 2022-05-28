@@ -59,7 +59,7 @@ const DrawerNavigator = ({ nav }) => {
         title: 'Home',
         // Header Title
         // headerTitle: () => <Image source={require('../assets/logo.png')} style={styles.headerTitle} />,
-        headerTitle: () => <Text style={styles.headerTitle}>Belasea</Text>,
+        headerTitle: () => <Text style={styles.headerTitle}>Application</Text>,
         headerRight: () => (
           <View style={styles.headerRight}>
             <Icon name="bell" size={20} color="#fff" />
@@ -79,7 +79,7 @@ const styles = StyleSheet.create({
     fontSize: 25,
     fontWeight: '500',
     borderRadius:5,
-    marginLeft:"50%"
+    marginLeft:"30%"
   },
   
   headerRight: {
